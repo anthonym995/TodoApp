@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tcenter{
+    text-align: center;
+}
+.flex{
+    display: flex;
+}
+.fdc{
+    flex-direction: column;
+}
+.fdr{
+    flex-direction: row;
+}
+.fone{
+    flex: 1;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bclb{
+    background-color: lightblue;
+}
+button{
+    padding: 6px 12px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+}
+.md{
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid red;
+}
+body{
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,14 @@
+.todo.done .content{
+    text-decoration: line-through;
+}
+.todo-input{
+    padding: 6px 12px;
+    margin: 10px;
+}
+.todo-submit{
+    padding: 6px 12px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+}
